@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MSA_contest_client/static/css/main.d99dcbc8.css",
+    "main.js": "/MSA_contest_client/static/js/main.7cbb5cb1.js",
+    "index.html": "/MSA_contest_client/index.html",
+    "main.d99dcbc8.css.map": "/MSA_contest_client/static/css/main.d99dcbc8.css.map",
+    "main.7cbb5cb1.js.map": "/MSA_contest_client/static/js/main.7cbb5cb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d99dcbc8.css",
+    "static/js/main.7cbb5cb1.js"
+  ]
+}
