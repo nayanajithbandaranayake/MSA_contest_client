@@ -1,0 +1,147 @@
+.home_page {
+  padding: 2rem 2rem 3rem 2rem;
+  min-height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  & > h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .results_section {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: start;
+    & > section {
+      height: 70vh;
+      overflow-y: scroll;
+      padding: 1rem;
+    }
+    .submitted_results_container {
+      background: #f2d09d;
+      width: 45%;
+      margin-left: 2rem;
+      .submitted_result {
+        transition: all 0.4s ease-in-out;
+        background: #a1650b;
+        color: white;
+        margin: 0 0 1rem 0;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3 {
+          text-transform: capitalize;
+          font-weight: 400;
+        }
+        h4 {
+          text-transform: capitalize;
+          font-size: 1.5rem;
+        }
+        p {
+          font-size: 3rem;
+          height: 100%;
+        }
+      }
+    }
+    .finalized_results {
+      width: 45%;
+      background: #ea7145;
+      .sorted_marks_container {
+        transition: all 0.4s ease-in-out;
+        background: #f2d09d;
+        color: white;
+        margin: 0 0 1rem 0;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+        span {
+          color: orangered;
+        }
+        & > p {
+          font-size: 2.5rem;
+        }
+        & > div {
+          width: 60%;
+          text-transform: capitalize;
+          h3 {
+            font-weight: 400;
+            font-size: 1rem;
+          }
+          p {
+            font-weight: 800;
+            font-size: 1.4rem;
+            margin-top: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  // .submitted_results_container {
+  //   .submitted_result {
+  //   }
+  // }
+}
+
+@media (max-width: 400px) {
+  .home_page {
+    padding: 2rem 0.5rem 3rem 0.5rem;
+    .results_section {
+      .submitted_results_container {
+        .submitted_result {
+          p {
+            font-size: 2rem;
+          }
+        }
+      }
+      .finalized_results {
+        .sorted_marks_container {
+          & > p {
+            font-size: 2rem;
+          }
+          div {
+            p {
+              font-weight: 400;
+              font-size: 1.1rem;
+              span {
+                font-weight: 800;
+                font-size: 1.25rem;
+              }
+            }
+            h3 {
+              font-weight: 800;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 875px) {
+  .home_page {
+    padding: 2rem 0 3rem 0;
+    .results_section {
+      width: 100vw;
+      flex-wrap: wrap;
+      //   flex-direction: column;
+      justify-content: center;
+      //   align-items: center;
+      .submitted_results_container {
+        margin-left: 0;
+        width: 80vw;
+      }
+      .finalized_results {
+        width: 80vw;
+
+        margin-bottom: 2rem;
+        .sorted_marks_container {
+        }
+      }
+    }
+  }
+}

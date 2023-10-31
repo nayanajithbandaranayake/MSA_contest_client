@@ -1,0 +1,114 @@
+.dashboard_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 2rem;
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background: #610803;
+    color: white;
+    h1 {
+      text-align: center;
+    }
+  }
+  .change_questions {
+    margin-top: 6rem;
+
+    .subject_select_container {
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #eee7e1;
+      select {
+        border: none;
+        outline: none;
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+      }
+    }
+  }
+  .add_question_entry_container {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    background: #eee7e1;
+    height: 50vh;
+    overflow-y: scroll;
+  }
+  .entry_btn_container {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    // .btn_secondary {
+    //     margin-right: ;
+    // }
+  }
+  .danger_zone {
+    background: #ffd4d4;
+    padding: 2rem;
+    margin-top: 3rem;
+    h3 {
+      margin-bottom: 1rem;
+    }
+  }
+  .authorized {
+    form {
+      h1 {
+        margin-bottom: 2rem;
+      }
+      align-self: center;
+      padding: 2rem;
+      background-color: #eee7e1;
+      input {
+        padding: 0.6rem 1.5rem;
+        font-size: 1rem;
+        margin-right: 0.5rem;
+        border-radius: 5px;
+        border: 2px solid black;
+      }
+    }
+  }
+}
+.change_question_entry {
+  background-color: white;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  position: relative;
+  .q_number {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  p {
+    margin-top: 1rem;
+  }
+  input {
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  .question_input {
+    width: 100%;
+  }
+  .answer_input {
+    width: 20%;
+  }
+  .number_input {
+    width: 40%;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn_red {
+    margin-left: 1rem;
+  }
+}

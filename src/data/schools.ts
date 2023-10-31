@@ -1,0 +1,1 @@
+export const schools = ['dudly senanayake vidyalaya', 'kegalu balika vidyalaya', 'kegalu vidyalaya',  'mahanaga vidyalaya',  'pinnawala central college', "st. joseph's college", "swarna jayanthi maha vidyalaya",   ]

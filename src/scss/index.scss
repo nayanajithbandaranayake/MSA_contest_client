@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+
+.page {
+  padding: 0 2rem 5rem 2rem;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  padding: 0.5rem 0.89rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn_primary {
+  background: rgb(255, 94, 0);
+  color: white;
+}
+.btn_red {
+  background: red;
+  color: white;
+}
+.btn_green {
+  background: rgb(2, 179, 94);
+  color: white;
+}
+.btn_secondary {
+  background: #7a34e4;
+  color: white;
+}
+
+@import "questionsPage";
+@import "homePage";
+@import "dashboardPage";
